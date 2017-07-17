@@ -1,0 +1,2 @@
+class Helloworldmodel < ApplicationRecord
+end
