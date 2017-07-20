@@ -14,7 +14,7 @@ class Helloworld < Hyperloop::Component
     show_button
     DIV(class: 'formdiv') do
       InputBox()
-      H1 { "#{MyStore.field_value}" }
+      show_text
     end if MyStore.show_field
     
     description_table
