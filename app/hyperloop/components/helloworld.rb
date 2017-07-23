@@ -1,4 +1,5 @@
 
+
 class Helloworld < Hyperloop::Component
 
   before_mount do
@@ -10,17 +11,26 @@ class Helloworld < Hyperloop::Component
   end
 
   render(DIV) do
-    InputMessage()
-    show_button
-    DIV(class: 'formdiv') do
-      InputBox()
-      show_text
-    end if MyStore.show_field
-    
-    description_table
 
-    if MessageStore.messages?
-        Messages()
+    DIV(class: 'hyperloophelloword') do
+
+      IMG(src: 'https://rawgit.com/ruby-hyperloop/hyperloop-js-helloworld/master/hyperloop-logo-medium-white.png?raw=true')
+      H3 { "The complete isomorphic ruby framework" }
+      BR{}
+
+      InputMessage()
+      show_button
+      DIV(class: 'formdiv') do
+        InputBox()
+        show_text
+      end if MyStore.show_field
+      
+      description_table
+
+      if MessageStore.messages?
+          Messages()
+      end
+
     end
 
   end
