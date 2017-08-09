@@ -1,4 +1,4 @@
-![Screen](http://ruby-hyperloop.io/images/tutorials/Hyperloop-helloworld.png)
+![Screen](http://ruby-hyperloop.io/images/tutorials/Hyperloop-Railshelloworld.gif)
 
 ## This is a simple application showcasing **Hyperloop**
 
