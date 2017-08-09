@@ -1,4 +1,16 @@
-![Screen](http://ruby-hyperloop.io/images/tutorials/Hyperloop-Railshelloworld.gif)
+<p align="center">
+	<a href="http://ruby-hyperloop.io/" alt="Hyperloop" title="Hyperloop">
+		<img src="https://raw.githubusercontent.com/ruby-hyperloop/ruby-hyperloop.io/source/source/images/hyperloop-logo-small-pink.png">
+	</a>
+</p>
+
+<h1 align="center">
+	Hyperloop
+</h1>
+
+<h3 align="center">The Complete Isomorphic Ruby Framework</h3>
+
+<br>
 
 ## This is a simple application showcasing **Hyperloop**
 
